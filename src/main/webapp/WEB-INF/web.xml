@@ -1,0 +1,18 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <servlet>
+<!--        给servlet起一个名字-->
+        <servlet-name>userServlet</servlet-name>
+        <servlet-class>com.devil.servlet.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+<!--        关联别名-->
+        <servlet-name>userServlet</servlet-name>
+<!--        为这个Servlet匹配映射路径-->
+        <url-pattern>/King</url-pattern>
+    </servlet-mapping>
+
+</web-app>
